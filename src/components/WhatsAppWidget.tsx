@@ -4,7 +4,7 @@ import React from "react";
 import { MessageSquare } from "lucide-react";
 
 export default function WhatsAppWidget() {
-  const whatsappUrl = "https://wa.me/966533242203?text=Hello%20Hope%20Touch%20Global%20Ltd,%20I%20would%20like%20to%20inquire%20about%20your%20manpower%20and%20cleaning%20services.";
+  const whatsappUrl = "https://wa.me/966575679803?text=Hello%20Hope%20Touch%20Global%20Ltd,%20I%20would%20like%20to%20inquire%20about%20your%20manpower%20and%20cleaning%20services.";
 
   return (
     <div className="fixed bottom-6 right-6 z-50 group">

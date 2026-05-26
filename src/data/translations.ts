@@ -25,7 +25,7 @@ export const translations: Record<string, any> = {
       titlePart1: "Bridging the Gap Between",
       titleSecondary: "Elite Talent",
       titlePart2: "& Modern Industry",
-      subtitle: "Empowering Ideas. Delivering Innovation. Providing scalable workforce, professional janitorial, and comprehensive overseas visa solutions aligned with Saudi Vision 2030 goals.",
+      subtitle: "Hope Touch Global Limited is a trusted manpower supply company providing skilled and unskilled workers across Saudi Arabia. Working professionally with our own overseas recruitment support office in Bangladesh, we focus on group-based manpower recruitment under our company visa system to ensure quality, trust, and long-term workforce support aligned with Saudi Vision 2030 goals.",
       btnRequest: "Request Manpower",
       btnExplore: "Explore Services",
       statVetted: "Vetted Professionals",
@@ -35,6 +35,7 @@ export const translations: Record<string, any> = {
     about: {
       badge: "About Our Company",
       title: "Bridging Talent and Industry Globally",
+      btnDownloadProfile: "Download Company Profile (PDF)",
       desc1: "Hope Touch Global Limited Company is a premier professional service organization dedicated to bridging the gap between talent and industry.",
       desc2: "We specialize in delivering high-quality manpower, cleaning, and specialized support services tailored to meet the evolving needs of modern businesses. With a robust operational framework and an experienced management team, we pride ourselves on our ability to provide scalable workforce solutions.",
       desc3: "Whether locally in Saudi Arabia or through our overseas division in Bangladesh, we focus on quality, transparency, and the long-term success of our clients.",
@@ -96,7 +97,7 @@ export const translations: Record<string, any> = {
         manpowerSupply: {
           title: "Manpower Supply",
           desc: "Reliable skilled and unskilled labor customized for various industries including construction, hospitality, and retail.",
-          features: ["Vetted profiles", "Flexible hiring terms", "Rapid deployment", "Compliance management"],
+          features: ["General Labor & Helpers", "Cleaners & Janitors", "Construction & Electricians", "Drivers & Delivery Riders", "Warehouse & Factory Workers"],
         },
         cleaning: {
           title: "Cleaning & Maintenance",
@@ -285,7 +286,7 @@ export const translations: Record<string, any> = {
       titlePart1: "جسر الفجوة بين",
       titleSecondary: "الكفاءات النخبة",
       titlePart2: "والصناعة الحديثة",
-      subtitle: "تمكين الأفكار. تقديم الابتكار. توفير القوى العاملة القابلة للتطوير، والتنظيف المهني، والحلول الشاملة لتأشيرات العمل الخارجية تماشياً مع أهداف رؤية المملكة 2030.",
+      subtitle: "شركة هوب تاتش العالمية المحدودة هي شريك عمالة موثوق يوفر عمالة ماهرة وغير ماهرة في جميع أنحاء المملكة العربية السعودية. نحن نعمل باحترافية عبر مكتب دعم التوظيف الخارجي الخاص بنا في بنغلاديش، حيث نركز على التوظيف الجماعي تحت تأشيرات شركتنا لضمان الجودة والثقة والدعم المستدام تماشياً مع رؤية 2030.",
       btnRequest: "طلب قوى عاملة",
       btnExplore: "استكشف خدماتنا",
       statVetted: "مهنيون مؤهلون",
@@ -295,6 +296,7 @@ export const translations: Record<string, any> = {
     about: {
       badge: "حول شركتنا",
       title: "ربط الكفاءات بالصناعة عالمياً",
+      btnDownloadProfile: "تحميل الملف التعريفي للشركة (PDF)",
       desc1: "شركة هوب تاتش العالمية المحدودة هي مؤسسة خدمات مهنية رائدة مكرسة لجسر الفجوة بين الكفاءات والصناعة.",
       desc2: "نحن متخصصون في تقديم خدمات عمالة وتنظيف ودعم متخصصة عالية الجودة ومصممة لتلبية الاحتياجات المتطورة للأعمال الحديثة. مع إطار تشغيلي قوي وفريق إدارة ذو خبرة، نفخر بقدرتنا على تقديم حلول قوى عاملة قابلة للتطوير.",
       desc3: "سواء كان ذلك محلياً في المملكة العربية السعودية أو من خلال قسمنا الخارجي في بنغلاديش، فإننا نركز على الجودة والشفافية والنجاح طويل الأمد لعملائنا.",
@@ -356,7 +358,7 @@ export const translations: Record<string, any> = {
         manpowerSupply: {
           title: "توريد العمالة",
           desc: "عمالة ماهرة وغير ماهرة موثوقة ومخصصة لمختلف الصناعات بما في ذلك البناء والضيافة والتجزئة.",
-          features: ["ملفات تعريف مفحوصة", "شروط توظيف مرنة", "نشر سريع", "إدارة الامتثال"],
+          features: ["العمالة العامة والمساعدين", "عمال النظافة والتعقيم", "عمال البناء والكهربائيين", "السائقين ومندوبي التوصيل", "عمال المستودعات والمصانع"],
         },
         cleaning: {
           title: "التنظيف والصيانة",

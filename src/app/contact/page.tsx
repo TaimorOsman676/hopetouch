@@ -13,8 +13,8 @@ export default function ContactPage() {
   const saudiContacts = [
     { 
       label: language === "ar" ? "جوال الممثل الإقليمي" : "Regional Representative Mobile", 
-      val: "+966 53 324 2203", 
-      href: "tel:+966533242203" 
+      val: "+966 57 567 9803", 
+      href: "tel:+966575679803" 
     },
     { 
       label: language === "ar" ? "دعم البريد الإلكتروني للشركة" : "Corporate Email Support", 
@@ -178,7 +178,7 @@ export default function ContactPage() {
             </p>
             <div className="pt-2">
               <a 
-                href="https://wa.me/966533242203?text=Hello%20Hope%20Touch%20Global%20Ltd,%20I%20would%20like%20to%20inquire%20about%20your%20manpower%20and%20cleaning%20services."
+                href="https://wa.me/966575679803?text=Hello%20Hope%20Touch%20Global%20Ltd,%20I%20would%20like%20to%20inquire%20about%20your%20manpower%20and%20cleaning%20services."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-6 py-3.5 bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-sm rounded-xl shadow-lg transition-transform hover:scale-102 cursor-pointer"

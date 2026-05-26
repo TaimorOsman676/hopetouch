@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { ShieldCheck, Target, Award, MapPin } from "lucide-react";
+import { ShieldCheck, Target, Award, MapPin, Download } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function AboutUs() {
@@ -47,6 +47,18 @@ export default function AboutUs() {
             <p className="text-slate-350 leading-relaxed">
               {t("about.desc3")}
             </p>
+
+            {/* Download Profile Button */}
+            <div className="pt-2">
+              <a 
+                href="/assets/Hope_Touch_Company_Profile.pdf" 
+                download="Hope_Touch_Company_Profile.pdf"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-secondary/10 hover:bg-secondary/20 text-secondary hover:text-white font-bold text-sm tracking-wide border border-secondary/20 transition-all duration-250 cursor-pointer group"
+              >
+                <Download className="w-4 h-4 text-secondary group-hover:text-white transition-colors" />
+                <span>{t("about.btnDownloadProfile")}</span>
+              </a>
+            </div>
 
             {/* Hubs footprint */}
             <div className="pt-6 border-t border-dark-border grid grid-cols-1 sm:grid-cols-2 gap-4">
